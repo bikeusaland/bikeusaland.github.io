@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>always-on-agent: Privacy policy</title>
+</head>
+<body>
+  <h1>always-on-agent: Privacy policy</h1>
+  <p>Last updated: November 8, 2026</p>
+
+  <h2>Who uses this app</h2>
+  <p>
+    always-on-agent is a personal tool that runs only on its owner's Mac. Its only user is the
+    owner, who authorizes it to access their own Google account. It is not offered to anyone else.
+  </p>
+
+  <h2>Google data accessed</h2>
+  <p>
+    The app requests the Gmail scopes <code>gmail.modify</code> and <code>gmail.compose</code>. It
+    uses them only to do what the owner asks: search and read mail, create drafts, send mail
+    (after the owner approves, unless every recipient is on the owner's own allowlist), apply
+    labels, archive, mark read or unread, and move mail to Trash (only after the owner approves).
+    It cannot permanently delete mail.
+  </p>
+
+  <h2>How data is stored and processed</h2>
+  <ul>
+    <li>
+      The OAuth refresh token is stored in the owner's own password vault (1Password or macOS
+      Keychain) on the owner's Mac. Access tokens are kept in memory only.
+    </li>
+    <li>
+      Mail content is processed on the owner's Mac by a local language model. When the owner
+      chooses to escalate a request, the relevant content is sent to Anthropic's Claude API to
+      answer that request.
+    </li>
+    <li>
+      Mail content is not sold, used for advertising, or shared with anyone else, and is not
+      used to train AI models.
+    </li>
+  </ul>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>
+    always-on-agent's use and transfer of information received from Google APIs follows the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+    Services User Data Policy</a>, including the Limited Use requirements.
+  </p>
+
+  <h2>Revoking access</h2>
+  <p>
+    The owner can revoke access at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  </p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:bikeusaland@gmail.com">bikeusaland@gmail.com</a></p>
+</body>
+</html>
